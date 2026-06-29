@@ -1,0 +1,86 @@
+# Python is:
+
+"self-documenting"
+whitespace-sensitive
+
+"duck typing": if it walks like a duck and quacks like a duck, it's good enough
+
+
+# Essentials:
+
+în Python totul este un obiect
+
+
+funcția:
+- primește un input (argumente)
+- returnează un output (return value!)
+- și/sau are side-effects (modifică starea sistemului)
+
+
+# data types:
+
+int
+float
+str
+
+bool
+
+list  # este mutabilă
+tuple # immutable
+
+range # data-type de sine stătător
+
+# statements:
+
+del variabila
+del variabila[item]
+
+# essential debugging tools
+
+print()
+help()
+type()
+
+
+# good to know:
+PEP-8: the styleguide
+https://peps.python.org/pep-0008/
+
+
+# important exception types
+
+SyntaxError
+IndentationError
+
+NameError       # când variabila nu este declarată
+TypeError       # când amestecăm data-type-uri în mod invalid
+                # când nu respectăm argumentele funcției
+
+ValueError      # nu există valoarea căutată
+                # argumentul primit are valoare invalidă
+
+IndexError      # nu există indexul
+AttributeError
+
+# using VSCode
+
+Ctrl+/       comment selection block
+Ctrl+F5      run current file
+Tab          indent selection
+Shift+Tab    unindent selection
+
+# wisdom
+
+readability is king:
+  - naming things (variables & functions)
+  - sparse code (vs. dense)
+  - algoritmi simplificați
+  - funcții foarte specifice
+  - comments, comments, comments
+
+
+there are 2 very difficult problems in computing:
+- naming things
+
+
+DRY = don't repeat yourself
