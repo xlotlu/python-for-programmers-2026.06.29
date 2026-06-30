@@ -1,3 +1,5 @@
+from time import sleep
+
 # while:
 
 # pattern 1:
