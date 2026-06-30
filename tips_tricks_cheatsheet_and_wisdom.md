@@ -17,6 +17,8 @@ funcția:
 - și/sau are side-effects (modifică starea sistemului)
 
 
+în Python totul este o referință
+
 # data types:
 
 int
@@ -29,6 +31,17 @@ list  # este mutabilă
 tuple # immutable
 
 range # data-type de sine stătător
+
+notă: str, list & tuple sunt "sequences":
+- sunt iterabile
+- au o ordine dată
+- sunt accesibile după index
+- suportă operatorii + și *
+  (deci și += și *= )
+- toate suportă len()
+- suportă operatorul in
+- toate au metodele .count() și .index()
+
 
 # statements:
 
