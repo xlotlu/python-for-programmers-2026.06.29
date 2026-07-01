@@ -52,8 +52,27 @@ del variabila[item]
 
 print()
 help()
-type()
+type() # returnează data-type-ul
+dir() # listează toate atributele
 
+and the (pen)ultimate debugging tool:
+în shell:
+
+```
+$ pip install ipdb
+```
+
+în python:
+
+```
+import ipdb
+```
+
+și la linia unde vrem să intrăm în execuție:
+
+```
+ipdb.set_trace()
+```
 
 # good to know:
 PEP-8: the styleguide
@@ -94,6 +113,8 @@ readability is king:
 
 there are 2 very difficult problems in computing:
 - naming things
+- cache invalidation
+- off-by-one errors
 
 
 DRY = don't repeat yourself
