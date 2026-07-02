@@ -9,7 +9,7 @@ s.count('substr')
 # acestea fac același lucru
 s.find("substr")
 # dar .find() returnează -1 if not found
-s.index("substr")
+#s.index("substr")
 # iar .index() raises ValueError if not found
 # (cel pythonic este index)
 

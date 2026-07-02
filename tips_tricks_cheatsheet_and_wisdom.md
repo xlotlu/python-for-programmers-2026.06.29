@@ -92,6 +92,7 @@ ValueError      # nu există valoarea căutată
                 # argumentul primit are valoare invalidă
 
 IndexError      # nu există indexul
+KeyError        # nu există cheia
 AttributeError
 
 # using VSCode
@@ -100,6 +101,15 @@ Ctrl+/       comment selection block
 Ctrl+F5      run current file
 Tab          indent selection
 Shift+Tab    unindent selection
+
+# useful packages
+
+... to pip install:
+
+ipython
+ipdb
+rich
+
 
 # wisdom
 
